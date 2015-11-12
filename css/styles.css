@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body,
+div,
+header,
+main,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: #333;
+  font-family: "Bitter", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #fff;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 740px;
+}
+
+.site-header {
+  color: #fff;
+  background: #222 url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
+  padding: 4em 0;
+}
+
+.site-main {
+  padding: 2em 0;
+}
+
+.branding {
+  font-size: 4em;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  text-shadow: 0 .05em .075em rgba(0,0,0,.5);
+  text-transform: uppercase;
+}
+.branding-primary,
+.branding-secondary {
+  display: block;
+}
+.branding-secondary {
+  font-size: .62em;
+}
+
+.lead {
+  font-size: 1.5em;
+}
+
+.contact-details {
+  color: #666;
+}
+
+.legal {
+  color: #999;
+  font-size: 80%;
+}
+
+.btn {
+  color: #333;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0;
+  padding: .5em 1em;
+  border: .1em solid #666;
+  border-radius: .25em;
+  vertical-align: middle;
+}
+.btn:hover,
+.btn:active {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+.btn:active {
+  color: #ccc;
+  background-color: #222;
+  border-color: #222;
+  box-shadow: inset 0 .25em .5em rgba(0,0,0,.75);
+}
+
+.btn-email-us {
+  margin-bottom: 1.5em;
+}
+
+@media (max-width: 30em) {
+  .branding {
+    font-size: 3em;
+  }
+}
