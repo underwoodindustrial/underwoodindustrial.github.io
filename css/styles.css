@@ -91,7 +91,7 @@ p {
   display: inline-block;
   margin: 0;
   padding: .5em 1em;
-  border: .1em solid #666;
+  border: 1px solid #666;
   border-radius: .25em;
   vertical-align: middle;
 }
